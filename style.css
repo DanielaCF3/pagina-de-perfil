@@ -1,0 +1,188 @@
+.nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    margin-bottom: 20px;
+}
+.flex-container{
+    width: 1000px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-titulo{
+    display: flex;
+    justify-content: center;
+    padding-left: 400px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex:1;
+    gap:5%;
+}
+a,.active{
+    color:rgba(211, 211, 211, 0.74);
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    border: none;
+    font-size:large;
+    font-weight:100;
+    background-color: rgb(138, 98, 202);
+    color: white;
+    box-shadow: 3px 3px rgba(10, 10, 10, 0.801);
+    flex:2;
+    margin-left: 50px;
+    
+}
+.izquierdo{
+    padding-left: 400px;
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+.derecho{
+    margin: 10px;
+}
+.izquierdo,.derecho{
+    display: inline-block;
+    width: 600px;
+}
+.tarjeta{
+    display:block;
+    
+    
+
+}
+.usuario{
+    display: block;
+    background-color: rgb(138, 98, 202);
+    position: relative;
+    height: 85px;
+    margin-top: 20px;
+    border:3px solid rgb(138, 98, 202);
+}
+.user{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    border-radius: 50%;
+    border: 3px solid rgb(148, 148, 148);
+}
+.contenido{ 
+    padding: 90px 30px;
+    border: 2px solid #999;
+    border-top: none;
+}
+.map-ubicacion, .edit{
+    height: 15px;
+}
+.enunciado{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+}
+.contend{
+    padding-left: 20px;
+}    
+.educacion{
+    margin-top: 10px ;
+    border: 2px solid #999;
+    
+
+}
+
+.solicitudes{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    width: 320px;
+    margin-bottom: 10px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.lista{
+    list-style: none;
+    
+}
+.persona{
+    height: 50px;
+    border-radius: 50%;
+
+}
+.icono{
+    height: 30px;
+}
+.solicitud,.amigos{
+    
+    background-color: rgb(175, 175, 175);
+    border-radius: 50%;
+    color: rgb(32, 31, 31);
+    padding: 3px 8px;
+    
+}
+.conexiones{
+    
+    border: 2px solid #999;
+    width: 320px;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    
+}
+
+
+.listado{
+    padding: 0 20px;
+    padding-top: 20px;
+    list-style: none;
+}
+.solicitudes{
+    display: flex;
+    
+    
+
+}
+.contenido-lista{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+}
+.amigos{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    background-color: #999;
+    border-radius: 12px;
+    margin-right: 10px;
+    
+}
+.fecha{
+    color: #999;
+}
+.contenedor{
+    padding: 10px;
+    border: 2px solid  #999;
+    border-top: none;
+    width: 300px;
+}
+
